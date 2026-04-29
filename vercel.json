@@ -3,16 +3,12 @@
   "devCommand": "npm run dev",
   "installCommand": "npm install",
   "framework": "nextjs",
-  "regions": ["iad1"],
-  "env": {
-    "DATABASE_URL": "@database-url",
-    "NEXTAUTH_URL": "@nextauth-url",
-    "NEXTAUTH_SECRET": "@nextauth-secret",
-    "OPENAI_API_KEY": "@openai-api-key"
-  },
+  "regions": [
+    "iad1"
+  ],
   "build": {
     "env": {
-      "NEXT_PUBLIC_APP_URL": "@app-url"
+      "NEXT_PUBLIC_APP_URL": "https://ai-saas-platform.vercel.app"
     }
   }
 }
